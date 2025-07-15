@@ -1,0 +1,20 @@
+.toggle-quote-card {
+}
+.toggle-quote-button {
+}
+.quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 1rem 0 2rem 0;
+  color: #333;
+}
+
+.day06-card {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #c8e1ec;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+.header-wrapper {
+  background-color: #54a7b4;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.headerSection {
+  background-color: #a4aae2;
+  text-align: center;
+  border-radius: 10px;
+}

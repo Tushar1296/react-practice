@@ -1,0 +1,20 @@
+.card-block {
+  margin: 2rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Add space between cards */
+  align-items: center;
+  color: rgb(56, 49, 49);
+}
+
+.card-wrapper {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.card-content {
+  text-align: center;
+  padding: 1rem;
+}
