@@ -33,6 +33,24 @@ function Home() {
         <li>
           <Link to="/day06">Day - 06 Conditional Rendering</Link>
         </li>
+        <li>
+          <Link to="/day07">Day - 07 Lists & Keys</Link>
+        </li>
+        <li>
+          <Link to="/day08">Day - 08 Live Clock</Link>
+        </li>
+        <li>
+          <Link to="/day09">Day - 09 Reusable Grid</Link>
+        </li>
+        <li>
+          <Link to="/day10">Day - 10 Mini Dashboard</Link>
+        </li>
+        <li>
+          <Link to="/todos">Day - 11 To-Do List</Link>
+        </li>
+        <li>
+          <Link to="/calc">Day - 12 Calculator</Link>
+        </li>
       </ul>
     </div>
   );

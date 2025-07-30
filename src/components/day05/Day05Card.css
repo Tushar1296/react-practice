@@ -47,8 +47,34 @@
 }
 
 /* Make the title readable */
-h1 {
+h2 {
   color: #333;
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.suggestion-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: 150px;
+  overflow-y: auto;
+  background: white;
+}
+
+.suggestion-list li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.suggestion-list li:hover {
+  background-color: #e2f0f6;
+  cursor: pointer;
+}
+
+.highlighted {
+  background-color: #f0f0f0;
+  cursor: pointer;
 }

@@ -1,7 +1,3 @@
-.toggle-quote-card {
-}
-.toggle-quote-button {
-}
 .quote {
   font-size: 1.2rem;
   font-style: italic;
@@ -17,4 +13,10 @@
   background-color: #c8e1ec;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 2rem;
 }

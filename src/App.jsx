@@ -1,4 +1,6 @@
-import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ToggleQuoteCard from "./components/day06/ToggleQuoteCard";
+import Home from "./components/Home";
 import HelloCard from "./components/day01/HelloCard";
 import ActionButton from "./components/day01/ActionButtons";
 import GreetingSection from "./components/day01/GreetingSection";
@@ -8,12 +10,13 @@ import Day03Card from "./components/day03/Day03Card";
 import Day04Card from "./components/day04/Day04Card";
 import Day05Card from "./components/day05/Day05Card";
 import Day06Card from "./components/day06/Day06Card";
-// import Day07Card from "./components/day07/Day07Card";
-// import Day08Card from "./components/day08/Day08Card";
-// import Day09Card from "./components/day09/Day09Card";
-import Home from "./components/Home";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import ToggleQuoteCard from "./components/day06/ToggleQuoteCard";
+import Day07Card from "./components/day07/Day07Card";
+import Day08Card from "./components/day08/Day08Card";
+import Day09Card from "./components/day09/Day09Card";
+import Day10Card from "./components/day10/Day10Card";
+import TodoList from "./components/day11-todo-list/TodoList";
+import Calculator from "./components/day12-calculator/Calculator";
+import "./App.css";
 
 function App() {
   return (
@@ -55,9 +58,16 @@ function App() {
           <Route path="/day04" element={<Day04Card />} />
           <Route path="/day05" element={<Day05Card />} />
           <Route path="/day06" element={<Day06Card />} />
-          {/* <Route path="/day07" element={<Day07Card />} /> */}
-          {/* <Route path="/day08" element={<Day08Card />} /> */}
-          {/* <Route path="/day09" element={<Day09Card />} /> */}
+          <Route path="/day07" element={<Day07Card />} />
+          <Route path="/day08" element={<Day08Card />} />
+          <Route path="/day09" element={<Day09Card />} />
+          <Route path="/day10" element={<Day10Card />} />
+          <Route path="/todos" element={<TodoList />} />
+          <Route path="/calc" element={<Calculator />} />
+          {/* <Route path="/day10" element={<Day10Card />} />
+          <Route path="/day10" element={<Day10Card />} />
+          <Route path="/day10" element={<Day10Card />} />
+          <Route path="/day10" element={<Day10Card />} /> */}
           {/* Add more routes here as needed */}
         </Routes>
       </Router>

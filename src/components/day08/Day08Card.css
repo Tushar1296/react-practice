@@ -1,0 +1,22 @@
+.day08-card {
+  max-width: 400px;
+  margin: 3rem auto;
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fdfdfd;
+}
+
+.live-clock {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #f0f8ff;
+  color: #1a1a1a;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  margin-top: 1rem;
+  display: inline-block;
+}
