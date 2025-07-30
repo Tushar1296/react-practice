@@ -1,0 +1,112 @@
+/* Dashboard Container */
+.dashboard-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem 2.5rem;
+}
+
+.dashboard-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.dashboard-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  color: #333;
+}
+
+.dashboard-section:last-child {
+  border-bottom: none;
+}
+
+/* Form Section */
+.form-section .form-container {
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+  padding: 1.5rem 1rem;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 700px) {
+  .form-container {
+    flex-direction: column;
+    gap: 16px;
+    max-width: 95vw;
+  }
+}
+
+/* Inputs */
+.form-input {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  background-color: #fff;
+  color: #333;
+  transition: border 0.2s ease-in-out;
+}
+.form-input:focus {
+  border-color: #5aa1bd;
+}
+
+/* Buttons */
+.submit-button {
+  width: 100%;
+  max-width: 180px;
+  align-self: flex-end;
+  background-color: #5aa1bd;
+  color: white;
+  padding: 10px 0;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+/* Search */
+.search-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.search-form {
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+}
+.search-form .submit-button {
+  max-width: 120px;
+  align-self: flex-end;
+  font-size: 0.95rem;
+  padding: 8px 0;
+}
+
+.status-message {
+  color: green;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0.5rem;
+}

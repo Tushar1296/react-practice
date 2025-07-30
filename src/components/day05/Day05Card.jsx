@@ -8,7 +8,7 @@ function Day05Card() {
 
   return (
     <div>
-      <h1>Day 05 Card Component</h1>
+      <h2>Day 05 Card Component</h2>
       <Form label={"Submit"} onClick={handleClick} />
     </div>
   );
